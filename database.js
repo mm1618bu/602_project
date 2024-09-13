@@ -10,7 +10,7 @@ class Database{
         this.connect();
     }
     connect(){
-        mongoose.connect("mongodb+srv://mitchellbarron10:Ma3el683!@cluster0.jlci8rn.mongodb.net/Cluster0?retryWrites=true&w=majority")
+        mongoose.connect("mongodb+srv://mitchellbarron10:********@cluster0.jlci8rn.mongodb.net/Cluster0?retryWrites=true&w=majority")
         .then(() => {
             console.log("success");
         })
